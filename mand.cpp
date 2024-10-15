@@ -17,7 +17,7 @@ int main(){
         zi = 2*zr*zi + ci;
         cout<<"\n("<<zr<<";"<<zi<<")";
         if (zr *zr +zi *zi >= 4){
-            cout<<"\nle point represente par le nombre" <<zr<<"+" <<(zr)<<"i n'appartient pas a la fractale de Mandelbrot";
+            cout<<"\nle point represente par le nombre" <<zr<<"+" <<(zi)<<"i n'appartient pas a la fractale de Mandelbrot";
             break;
         }
     }
